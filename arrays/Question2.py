@@ -8,6 +8,11 @@
 # {4, -7, 3}
 # {-7, 3, 1, 3}
 
+# feedback
+#   1. how to find all subsets of all arrays.
+#   2. lists in one line
+#   3. difference between .extend and .append
+#   4. Idea behind finding sum of zero
 # mine
 def zeroSumSublist(arr):
     zero_arr = list()
@@ -24,6 +29,7 @@ def zeroSumSublist(arr):
                 zero_temp.extend(j)
                 zero_arr.append(zero_temp)
     print(zero_arr)
+    print(len(zero_arr))
     return zero_arr
 
 
@@ -75,6 +81,7 @@ if __name__ == '__main__':
 
     A = [4, -6, 3, -1, 4, 2, 7]
     A= [ 3, 4, -7, 3, 1, -4, -2, -2]
+    A = [3, 4, -7, 3, 1, 3, 1, -4, -2, -2]
 
     if zeroSumSublist(A):
         print("Sublist exists")

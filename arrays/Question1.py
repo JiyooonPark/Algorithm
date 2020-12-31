@@ -10,6 +10,10 @@
 # or
 # Pair found at index 1 and 4 (7 + 3)
 
+# feedback
+#   1. algorithm questions don't take inputs
+#   2. lists only take int as index
+
 # mine
 arr = input('input the array: ')
 arr = arr.split(',')
