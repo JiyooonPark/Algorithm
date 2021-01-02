@@ -1,3 +1,4 @@
+# 2021.01.02
 # Sort Binary array in Linear Time
 # Given a binary array sort it in linear time and constant space.
 # Output should print contain all zeros followed by all ones
