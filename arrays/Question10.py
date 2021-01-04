@@ -4,32 +4,33 @@
 # with elements of array Y[] by maintaining the order.
 # i.e. fill X[] with first m smallest elements and fill Y[] with remaining elements
 
-# input = [1,4,7,8,10]
-# output = [2, 3, 9]
+# input = [1,4,7,8,10], [2, 3, 9]
+# output = [1, 2, 3, 4, 7], [8, 9, 10]
 
 
 def merge(X, Y):
     x_len = len(X)
-    y_len = len(Y)
 
     XY = list()
     XY.extend(X)
     XY.extend(Y)
-    print(XY)
     XY.sort()
-    print(XY)
-    X = Y = []
+
+    x = list()
+    y = list()
+
     for i in range(x_len):
-        X.append(XY[i])
-    for i in range(y_len):
-        Y.append(XY[i])
+        x.append(XY[i])
+    for i in range(x_len, len(XY)):
+        y.append(XY[i])
+    return (x,y)
 
 
 if __name__ == '__main__':
     X = [1, 4, 7, 8, 10]
     Y = [2, 3, 9]
 
-    merge(X, Y)
+    X, Y = merge(X, Y)
 
     print("X:", X)
     print("Y:", Y)
