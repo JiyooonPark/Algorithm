@@ -1,4 +1,4 @@
-def solution_try1(n, m, k):
+def solution_my(n, m, k):
     # sort -> get max index -> until maxed out add -> move to next index
     total = 0
     sum = 0
@@ -17,7 +17,7 @@ def solution_try1(n, m, k):
 
 
     return sum
-def solution_sequence(n, m, k):
+def solution_given(n, m, k):
     n.sort()
     first = n[-1]
     second = n[-2]
@@ -44,4 +44,4 @@ if __name__ == '__main__':
     m = 8
     k = 3
     print("n = {}, m = {}, k = {}".format( n, m, k))
-    print(solution_sequence(n, m, k))
+    print(solution_given(n, m, k))

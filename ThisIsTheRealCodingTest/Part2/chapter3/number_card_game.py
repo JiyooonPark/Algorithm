@@ -1,4 +1,4 @@
-def solution_try1(m, n, deck):
+def solution_my(m, n, deck):
     for list in deck:
         list.sort()
         print(list)
@@ -11,7 +11,7 @@ def solution_try1(m, n, deck):
             continue
     return max
 
-def solution_better(m, n, deck):
+def solution_given(m, n, deck):
     result = 0
     for i in range(len(deck)):
         min_val = min(deck[i])
@@ -32,10 +32,9 @@ def generate_inputs(max_n, max_m):
         temp = []
     return max_m, max_n, deck
 if __name__ == '__main__':
-    list = []
     max_n = 20
     max_m = 20
     m, n, deck = generate_inputs(max_n, max_m)
     # print(deck)
-    print(solution_try1(m, n, deck))
-    print(solution_better(m, n, deck))
+    print(solution_my(m, n, deck))
+    print(solution_given(m, n, deck))

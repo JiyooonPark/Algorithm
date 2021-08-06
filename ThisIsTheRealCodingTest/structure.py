@@ -1,15 +1,14 @@
-def solution_try1(n, m, k):
+# my solution
+def solution_my():
     pass
-def solution_better(n, m, k):
+# given solution
+def solution_given():
     pass
 
-def generate_inputs(max_n, max_m, max_k):
+def generate_inputs():
     pass
 if __name__ == '__main__':
-    list = []
     max_n = 1000
-    max_m = 10000
-    max_k = 10000
-    n, m, k = generate_inputs(max_n, max_m, max_k)
+    N = generate_inputs()
 
-    print(solution_try1(n, m, k))
+    print(solution_my())

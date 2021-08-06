@@ -1,11 +1,10 @@
-# Algorithm
-Repo for Algorithm study
+## Algorithm Repository
+:sparkles:Repository for Algorithm Test Studies 
 
 ---
-goal : commit everyday 
+_goal : commit everyday_ 
 
----
 
 languages used:
 
-    1. python 
+* python 
