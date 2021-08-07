@@ -26,3 +26,10 @@
    1. If the candidates are limited, then it is okay to travese all possibilities
    1. Study Probability 
    1. Think of efficiency, run time
+
+1. arabian_night.py
+   1. Simplify ( use numbers )
+   
+1. game_development.py
+   1. -> NOT DONE
+   
