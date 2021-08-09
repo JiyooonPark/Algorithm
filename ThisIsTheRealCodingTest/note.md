@@ -33,3 +33,12 @@
 1. game_development.py
    1. -> NOT DONE
    
+###Chapter 5
+1. search_basic.py
+   1. basics of dfs and bfs
+   
+1. freeze_drink.py
+   1. dfs  is simpler, but I like mine also
+   
+1. maze.py
+   1. have to study more on this topic
