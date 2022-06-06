@@ -13,7 +13,7 @@ NOTE:
     ::BFS::
     - Better to use bfs instead of dfs
     - bfs uses less space(mem)
-    - book answer not fully inderstood
+    - book answer not fully understood
 '''
 
 # ===================MY SOLUTION FUNCTION======================
