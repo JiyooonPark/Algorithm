@@ -39,15 +39,13 @@ from collections import deque
 def bfs(x,y, n, m, graph):
     queue = deque()
     queue.append((x,y))
-    distance = 1
     while queue:
         x, y = queue.popleft()
-        distance +=1
         for (i,j) in [[-1, 0], [1, 0], [0, 1], [0, -1]]:
             if 0<=x+i<n and 0<=y+j<m:
                 if graph[x+i][y+j] == 1:
                     queue.append((x+i, y+j))
-                    graph[x+i][y+j] = distance
+                    graph[x+i][y+j] = graph[x][y]+1
 
         print_graph(graph)
 
