@@ -1,26 +1,31 @@
 # ==========================NOTEPAD============================
 '''
-2022/06/06
-START: 14:08    END: 14:23
+2022/06/09
+START: 20:14    END:20:15
 
-CHAPTER 5: DFS/BFS
+CHAPTER 6: SORT
 
 IDEAS:
-    ::DFS::
-    - pass distance to every recursion
+    ::sort::
+    - use python inner function
 
 NOTE:
-    ::BFS::
-    - Better to use bfs instead of dfs
-    - bfs uses less space(mem)
+    - sorted(array, reverse=True)
 '''
 
 # ===================MY SOLUTION FUNCTION======================
+def solution(array):
+    array.sort()
+    array.reverse()
+    return array
 
+def solution2(array):
+    array = sorted(array, reverse=True)
+    return array
 # ======================BASIC FUNCTIONS========================
 
 # ========================TEST CASES===========================
 
 # ============================MAIN=============================
 if __name__ == "__main__":
-    pass
+    print(solution2([15, 27, 12]))
