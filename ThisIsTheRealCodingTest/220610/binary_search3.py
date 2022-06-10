@@ -26,6 +26,8 @@ IDEAS:
 
 
 NOTE:
+    - complicated the problem too much
+    - my answer was not bad, but should get used to binary search methods as well
 '''
 # ===================MY SOLUTION FUNCTION======================
 def solution(n, m, length):
